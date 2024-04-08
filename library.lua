@@ -7,13 +7,7 @@ if getgenv().library then
 	getgenv().library:Unload()
 end
 
-local library = {design = getgenv().design == "kali" and "kali", tabs = {}, draggable = true, flags = {}, title = "awakenkn-hub", open = false, mousestate = inputService.MouseIconEnabled,popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "awakenkn-hubv3", fileext = ".json"}
-if getgenv().scripttitle then
-    library.title = getgenv().scripttitle
-end
-if getgenv().FolderName then
-    library.foldername = getgenv().FolderName
-end
+local library = {design = getgenv().design == "kali" and "kali", tabs = {}, draggable = true, flags = {}, title = "SakataWare", open = false, mousestate = inputService.MouseIconEnabled,popup = nil, instances = {}, connections = {}, options = {}, notifications = {}, tabSize = 0, theme = {}, foldername = "SakataWare", fileext = ".json"}
 getgenv().library = library
 
 local dragging, dragInput, dragStart, startPos, dragObject
